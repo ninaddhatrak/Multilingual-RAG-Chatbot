@@ -52,7 +52,6 @@ This project extensively uses the following key libraries and frameworks:
 ├── embeddings/
 │   ├── documents.json       # Document metadata
 │   ├── faiss_index/         # FAISS vector database
-├── how_to_run               # Detailed instructions on how to run the application
 ├── main.py                  # Runs the Streamlit app
 ├── requirements.txt         # Python dependencies
 ├── README.md                # Project README file
