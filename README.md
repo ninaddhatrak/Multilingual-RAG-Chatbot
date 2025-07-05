@@ -39,7 +39,24 @@ This project extensively uses the following key libraries and frameworks:
 
 ## Project Structure
 
-<pre><code>```bash ├── .env # Environment variables (optional) ├── src/ │ ├── __init__.py │ ├── config.py # Configuration settings │ ├── generator.py # Handles LLM generation using selected model │ ├── ingest.py # Loads, processes, and embeds uploaded documents │ ├── interface.py # Streamlit app logic │ ├── retriever.py # Handles FAISS search and document retrieval │ ├── logger_setup.py # Logging configuration ├── embeddings/ │ ├── documents.json # Document metadata │ ├── faiss_index/ # FAISS vector database ├── how_to_run # Detailed instructions on how to run the application ├── main.py # Runs the Streamlit app ├── requirements.txt # Python dependencies ├── README.md # Project README file ``` </code></pre>
+```text
+├── .env                     # Environment variables (optional)
+├── src/
+│   ├── __init__.py
+│   ├── config.py            # Configuration settings
+│   ├── generator.py         # Handles LLM generation using selected model
+│   ├── ingest.py            # Loads, processes, and embeds uploaded documents
+│   ├── interface.py         # Streamlit app logic
+│   ├── retriever.py         # Handles FAISS search and document retrieval
+│   ├── logger_setup.py      # Logging configuration
+├── embeddings/
+│   ├── documents.json       # Document metadata
+│   ├── faiss_index/         # FAISS vector database
+├── how_to_run               # Detailed instructions on how to run the application
+├── main.py                  # Runs the Streamlit app
+├── requirements.txt         # Python dependencies
+├── README.md                # Project README file
+```
 
 ## Installation
 
