@@ -1,6 +1,6 @@
 # Multilingual RAG Chatbot
 
-![Chatbot Icon](https://raw.githubusercontent.com/streamlit/streamlit-example-app-multimodal-rag/main/assets/catrag_icon.png )
+![Chatbot Icon](static/CatRag.ico)
 
 This is a Multilingual Retrieval-Augmented Generation (RAG) Chatbot built using **LangChain** and **Streamlit**. It allows users to upload their own documents (PDF, TXT, DOCX) and ask questions about them in multiple languages. The chatbot leverages **FAISS** for efficient vector database indexing and retrieval, and supports various Large Language Models (LLMs) including OpenAI, Google (Gemini), Anthropic (Claude), and local Ollama models.
 
