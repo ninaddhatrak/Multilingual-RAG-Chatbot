@@ -1,0 +1,14 @@
+✅ 3. Questions et Réponses de Base (Pour les tests de QA de Récupération)
+Vous pouvez utiliser ces questions pour vérifier que votre système RAG fonctionne de bout en bout.
+
+Question	Réponse Attendue
+Q : Quelle est la politique de congé annuel ?	R : Congé annuel : 20 jours payés par an.
+Q : Combien de semaines de congé parental offrons-nous ?	R : 16 semaines pour les aidants principaux, 4 semaines pour les aidants secondaires.
+Q : Quels outils de formatage dois-je utiliser pour le code Python ?	R : Utilisez black pour le formatage du code et isort pour les imports.
+Q : Où est hébergé le dépôt de code ?	R : GitHub (acme-corp/eng)
+Q : Quelle est la politique des horaires de travail ?	R : Standard : 9h00 – 17h00, horaires flexibles autorisés avec accord du manager.
+Q : Quels outils utilisons-nous pour la surveillance et la journalisation ?	R : Surveillance : Prometheus + Grafana ; Journalisation : Loki + Grafana.
+Q : Quelles sont les exigences pour fusionner une branche de fonctionnalités ?	R : Les PR nécessitent 1 revue par un pair et doivent passer les contrôles CI.
+Q : Comment est déployée la production ?	R : La production est déployée via GitHub Actions sur les commits tagués (vX.Y.Z).
+Q : Qui contacter pour des questions RH ?	R : Contactez hr@acme.corp.
+Q : Quel est le but de la commande make setup ?	R : Configurer l’environnement de développement local.

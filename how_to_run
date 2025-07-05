@@ -1,0 +1,102 @@
+# How to Run the Multilingual RAG Chatbot
+
+## Prerequisites
+- Python 3.8 or higher
+- pip package manager
+
+## Installation
+
+1. Clone or download the project files to your local machine.
+
+2. Navigate to the project directory:
+   ```bash
+   cd /path/to/multilingual-rag-chatbot
+   ```
+
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Configuration
+
+1. Create a `.env` file in the root directory (optional, for storing API keys):
+   ```
+   OPENAI_API_KEY=your_openai_api_key_here
+   GOOGLE_API_KEY=your_google_api_key_key_here
+   ANTHROPIC_API_KEY=your_anthropic_api_key_here
+   OLLAMA_BASE_URL=http://localhost:11434
+   ```
+
+   Note: You can also enter API keys directly in the Streamlit interface.
+
+2. For local Ollama usage:
+   - Install Ollama from https://ollama.ai/
+   - Pull a model: `ollama pull llama2`
+   - Ensure Ollama is running on localhost:11434
+
+## Running the Application
+
+1. Start the Streamlit app:
+   ```bash
+   streamlit run main.py
+   ```
+
+2. Open your web browser and navigate to the URL shown in the terminal (usually http://localhost:8501).
+
+## Usage
+
+1. **Select a Model**: Choose from OpenAI, Google (Gemini), Anthropic (Claude), or Local (Ollama) in the sidebar.
+
+2. **Enter API Key**: If using cloud models, enter your API key in the provided field.
+
+3. **Upload Documents**: Upload PDF, TXT, or DOCX files using the file uploader.
+
+4. **Ingest Documents**: Click "🚀 Ingest Documents" to process and embed your documents.
+
+5. **Ask Questions**: Use the chat interface to ask questions about your uploaded documents in any language.
+
+6. **Clear Data**: Use "🗑️ Clear Data" to remove all ingested documents and start fresh.
+
+## Logging
+
+Application logs are saved to the `logs/rag_chatbot.log` file and also printed to the console. The `logs` directory will be created automatically if it doesn't exist.
+
+## Supported File Types
+- PDF (.pdf)
+- Text files (.txt)
+- Word documents (.docx)
+
+## Features
+- Multilingual support for both queries and documents
+- Multiple LLM providers (OpenAI, Google, Anthropic, Ollama)
+- Document metadata tracking (word count, language detection)
+- FAISS vector database for efficient similarity search
+- Responsive Streamlit interface
+
+## Troubleshooting
+
+1. **Import Errors**: Make sure all dependencies are installed correctly.
+2. **API Key Issues**: Verify your API keys are correct and have sufficient credits.
+3. **Ollama Connection**: Ensure Ollama is running and accessible at the configured URL.
+4. **Document Processing**: Large documents may take time to process; be patient during ingestion.
+
+## Project Structure
+```
+├── .env                     # Environment variables (optional)
+├── src/
+│   ├── __init__.py
+│   ├── config.py           # Configuration settings
+│   ├── generator.py        # LLM generation logic
+│   ├── ingest.py          # Document processing and embedding
+│   ├── interface.py       # Streamlit UI
+│   ├── retriever.py       # FAISS search and retrieval
+│   ├── logger_setup.py    # Logging configuration
+├── embeddings/
+│   ├── documents.json     # Document metadata
+│   ├── faiss_index/       # FAISS vector database
+├── how_to_run             # This file
+├── main.py                # Application entry point
+├── requirements.txt       # Python dependencies
+```
+

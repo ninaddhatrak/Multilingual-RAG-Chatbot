@@ -1,0 +1,56 @@
+Nombre de la Empresa: Acme Corp
+Documento: Manual de Políticas de Recursos Humanos
+Versión: 1.0
+Fecha: Julio 2025
+Introducción
+Este manual detalla las políticas, beneficios y código de conducta de Acme Corp para guiar a todos los empleados.
+
+Código de Conducta
+
+Tratar a todos con respeto e integridad.
+
+No se tolerarán el acoso, la discriminación ni conductas poco éticas.
+
+La información confidencial no debe ser divulgada sin autorización.
+
+Política de Permisos
+
+Permiso Anual: 20 días pagados por año.
+
+Permiso por Enfermedad: 10 días pagados por año.
+
+Permiso Parental: 16 semanas para cuidadores principales, 4 semanas para cuidadores secundarios.
+
+Permiso No Remunerado: sujeto a aprobación del gerente.
+
+Política de Trabajo Remoto
+
+Los empleados pueden trabajar remotamente hasta 3 días por semana.
+
+Las posiciones totalmente remotas requieren aprobación del vicepresidente.
+
+Se proporciona soporte de equipo para configuraciones remotas.
+
+Resumen de Beneficios
+
+Seguro de Salud: empleados de tiempo completo están cubiertos desde el primer día.
+
+Subsidio de Bienestar: $100/mes para gastos relacionados con la salud.
+
+Desarrollo Profesional: $1,000/año para aprendizaje y certificaciones.
+
+Horario Laboral
+
+Estándar: 9:00 AM – 5:00 PM, con horario flexible permitido con aprobación del gerente.
+
+Se requiere registro de tiempo vía el portal interno de RRHH.
+
+Terminación y Salida
+
+Periodo de Aviso: 2 semanas (iniciado por empleado o empleador).
+
+Las entrevistas de salida son obligatorias.
+
+Los activos de la empresa deben ser devueltos el último día laboral.
+
+Para cualquier aclaración, contacte a hr@acme.corp.

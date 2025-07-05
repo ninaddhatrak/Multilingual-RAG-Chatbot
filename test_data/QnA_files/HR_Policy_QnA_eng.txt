@@ -1,0 +1,35 @@
+✅ 3. Baseline Questions and Answers (For Retrieval QA Testing)
+You can use these for test queries to verify your RAG system is working end-to-end.
+
+Question	Expected Answer Snippet
+Q. What is the annual leave policy?
+A. Annual Leave: 20 paid days per year.
+
+Q. How many weeks of parental leave do we offer?
+A. 16 weeks for primary caregivers, 4 weeks for secondary caregivers.
+
+Q. What formatting tools should I use for Python code?
+A. Use black for code formatting and isort for imports.
+
+Q. Where is the code repository hosted?
+A. GitHub (acme-corp/eng)
+
+Q. What is the working hours policy?
+A. Standard: 9:00 AM – 5:00 PM, flexible hours permitted with manager approval.
+
+Q. What tools do we use for monitoring and logging?
+A. Monitoring: Prometheus + Grafana; Logging: Loki + Grafana.
+
+Q. What's required to merge a feature branch?
+A. PRs require 1 peer review and must pass CI checks.
+
+Q. How is production deployed?
+A. Production deploys via GitHub Actions on tagged commits (vX.Y.Z).
+
+Q. Who to contact for HR questions?
+A. Contact hr@acme.corp.
+
+Q. What is the purpose of the make setup command?
+A. Setup local dev environment.
+
+

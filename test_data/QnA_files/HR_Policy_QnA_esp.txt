@@ -1,0 +1,15 @@
+Spanish
+✅ 3. Preguntas y Respuestas Base (Para pruebas de Recuperación QA)
+Puedes usar estas consultas de prueba para verificar que tu sistema RAG funcione de extremo a extremo.
+
+Pregunta	Respuesta Esperada
+P: ¿Cuál es la política de permisos anuales?	R: Permiso anual: 20 días pagados por año.
+P: ¿Cuántas semanas de permiso parental ofrecemos?	R: 16 semanas para cuidadores principales, 4 semanas para cuidadores secundarios.
+P: ¿Qué herramientas de formato debo usar para código Python?	R: Usa black para formateo de código y isort para las importaciones.
+P: ¿Dónde está alojado el repositorio de código?	R: GitHub (acme-corp/eng)
+P: ¿Cuál es la política de horario laboral?	R: Estándar: 9:00 AM – 5:00 PM, horario flexible permitido con aprobación del gerente.
+P: ¿Qué herramientas usamos para monitoreo y registro?	R: Monitoreo: Prometheus + Grafana; Registro: Loki + Grafana.
+P: ¿Qué se requiere para fusionar una rama de características?	R: Los PRs requieren 1 revisión por pares y deben pasar las verificaciones CI.
+P: ¿Cómo se despliega la producción?	R: Producción desplegada vía GitHub Actions en commits etiquetados (vX.Y.Z).
+P: ¿A quién contactar para preguntas de RRHH?	R: Contacta a hr@acme.corp.
+P: ¿Cuál es el propósito del comando make setup?	R: Configurar el entorno de desarrollo local.

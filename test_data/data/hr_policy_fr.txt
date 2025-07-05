@@ -1,0 +1,56 @@
+Nom de l’Entreprise : Acme Corp
+Document : Manuel de la Politique des Ressources Humaines
+Version : 1.0
+Date : Juillet 2025
+Introduction
+Ce manuel décrit les politiques, avantages et code de conduite d’Acme Corp pour guider tous les employés.
+
+Code de Conduite
+
+Traiter chacun avec respect et intégrité.
+
+Le harcèlement, la discrimination et les comportements non éthiques ne seront pas tolérés.
+
+Les informations confidentielles ne doivent pas être divulguées sans autorisation.
+
+Politique de Congés
+
+Congé Annuel : 20 jours payés par an.
+
+Congé Maladie : 10 jours payés par an.
+
+Congé Parental : 16 semaines pour les principaux aidants, 4 semaines pour les aidants secondaires.
+
+Congé Sans Solde : soumis à l’approbation du manager.
+
+Politique de Travail à Distance
+
+Les employés peuvent travailler à distance jusqu’à 3 jours par semaine.
+
+Les postes entièrement à distance nécessitent l’approbation du vice-président.
+
+Un support matériel est fourni pour les installations à distance.
+
+Aperçu des Avantages
+
+Assurance Santé : les employés à temps plein sont couverts dès le premier jour.
+
+Allocation Bien-être : 100 $/mois pour les dépenses liées à la santé.
+
+Développement Professionnel : 1 000 $/an pour la formation et les certifications.
+
+Horaires de Travail
+
+Standard : 9h00 – 17h00, horaires flexibles autorisés avec l’accord du manager.
+
+Suivi du temps requis via le portail RH interne.
+
+Résiliation et Départ
+
+Délai de Préavis : 2 semaines (initié par l’employé ou l’employeur).
+
+Les entretiens de départ sont obligatoires.
+
+Les biens de l’entreprise doivent être retournés le dernier jour ouvrable.
+
+Pour toute clarification, contactez hr@acme.corp.

@@ -1,0 +1,15 @@
+streamlit
+langchain
+langchain-community
+langchain-openai
+langchain-google-genai
+langchain-anthropic
+faiss-cpu
+sentence-transformers
+python-dotenv
+langdetect
+tiktoken
+PyPDF2
+python-docx
+docx2txt
+
