@@ -1,0 +1,34 @@
+
+ 1. Q/A to test constitutional facts
+
+Q1: भारत का संविधान कब लागू हुआ था?
+A1: 26 जनवरी 1950 को।
+
+
+
+ 2. Q/A to test named entity retrieval
+
+Q2: भारतीय संविधान के मुख्य शिल्पकार कौन थे?
+A2: डॉ. बी.आर. अंबेडकर।
+
+
+
+ 3. Q/A to test specific facts from history
+
+Q3: भारत को स्वतंत्रता कब मिली थी?
+A3: 15 अगस्त 1947 को।
+
+
+
+ 4. Q/A to test science and date-based facts
+
+Q4: ISRO की स्थापना कब हुई थी?
+A4: 1969 में।
+
+
+
+ 5. Q/A to test cultural information
+
+Q5: होली किस प्रकार का त्योहार है?
+A5: रंगों का त्योहार।
+
