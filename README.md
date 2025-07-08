@@ -22,7 +22,7 @@ This project extensively uses the following key libraries and frameworks:
 -   **LangChain**: The core framework for building LLM-powered applications. LangChain is used for:
     -   **Document Loaders**: To load various document types (PDF, TXT, DOCX) into a standardized format.
     -   **Text Splitters**: To break down large documents into smaller, manageable chunks suitable for embedding and retrieval.
-    -   **Embeddings**: To convert text chunks into numerical vector representations using multilingual sentence transformers (e.g., `all-MiniLM-L6-v2`).
+    -   **Embeddings**: To convert text chunks into numerical vector representations using multilingual sentence transformers (e.g., `paraphrase-multilingual-MiniLM-L12-v2`).
     -   **Vector Stores**: Integration with FAISS for efficient storage and similarity search of document embeddings.
     -   **Retrievers**: To fetch the most relevant document chunks based on user queries.
     -   **Chains**: To orchestrate the RAG process, combining document retrieval with LLM generation to answer questions based on the retrieved context.
@@ -103,7 +103,7 @@ This project extensively uses the following key libraries and frameworks:
 
 2.  **Ollama (for local models ):**
     -   Install Ollama from [ollama.ai](https://ollama.ai/ ).
-    -   Pull a model (e.g., `llama2`): `ollama pull llama2`
+    -   Pull a model (e.g., `llama3`): `ollama pull llama3`
     -   Ensure Ollama is running on `http://localhost:11434`.
 
 ## Running the Application
